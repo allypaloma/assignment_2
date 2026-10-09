@@ -1,3 +1,4 @@
+
 # Git and Docker Starter Application
 
 This repository contains a small Python web application used to practice Git, GitHub, and Docker workflows.
@@ -9,3 +10,15 @@ The application listens on port 8000 and returns a text response when accessed o
 ## Verification
 
 The running application should be verified using an HTTP request to port 8000.
+
+## Usage
+
+### Prerequisites
+
+- Docker
+- Git
+
+### Build Docker image
+
+```bash
+docker build -t git-docker-app:test .
